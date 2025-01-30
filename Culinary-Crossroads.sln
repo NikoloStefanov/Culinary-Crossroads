@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Culinary-Crossroads", "Culinary-Crossroads\Culinary-Crossroads.csproj", "{71BCE9EB-684F-4996-90D4-7D3B1D9CEA1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71BCE9EB-684F-4996-90D4-7D3B1D9CEA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BCE9EB-684F-4996-90D4-7D3B1D9CEA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BCE9EB-684F-4996-90D4-7D3B1D9CEA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BCE9EB-684F-4996-90D4-7D3B1D9CEA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC2BF872-59BD-4B92-92BB-78E66AF0AD51}
+	EndGlobalSection
+EndGlobal
