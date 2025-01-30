@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Culinary_Crossroads.Core.Enumeration;
+﻿using Culinary_Crossroads.Core.Enumeration;
 using Culinary_Crossroads.Core.Food;
+using Culinary_Crossroads.Core.Services;
 
 namespace Culinary_Crossroads.Core.Contacts
 {

@@ -1,13 +1,13 @@
 ﻿using Culinary_Crossroads.Core.Agent;
+using Culinary_Crossroads.Core.Contacts;
 using Culinary_Crossroads.Core.Enumeration;
 using Culinary_Crossroads.Core.Food;
 using Culinary_Crossroads.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using Culinary_Crossroads.Infrastructure.Data.Models;
 
 namespace Culinary_Crossroads.Core.Services
 {
-    public class FoodService
+    public class FoodService : IFoodService
     {
         private readonly ApplicationDbContext data;
         public FoodService(ApplicationDbContext _data)

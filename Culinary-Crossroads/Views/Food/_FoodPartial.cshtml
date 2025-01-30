@@ -1,0 +1,25 @@
+﻿
+
+@model FoodServiceModel
+
+<div class="col-md-4">
+    <div class="card mb-3">
+        <img class="card-img-top" src="@Model.ImageUrl" alt="Recipe Image">
+        <div class="card-body text-center">
+            <h4>@Model.Title</h4>
+
+            <br />
+            <a asp-controller="Food" asp-action="Details" asp-route-id="@Model.Id"
+               class="btn btn-success">Details</a>
+            @if (this.User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Food" asp-action="Edit" asp-route-id="@Model.Id"
+               class="btn btn-warning">Edit</a>
+                <a asp-controller="Food" asp-action="Delete" asp-route-id="@Model.Id"
+               class="btn btn-danger">Delete</a>
+                <p></p>
+
+            }
+        </div>
+    </div>
+</div>
