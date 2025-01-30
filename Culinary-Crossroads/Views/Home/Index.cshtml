@@ -1,8 +1,83 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+    ViewData["Title"] = "Вкусове от света";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <script>
+        function showText() 
+        {
+            document.getElementById('expectation').innerHTML =               
+                '<b>Онлайн платформа за рецепти от цял свят, предлагаща автентични ястия, представени стъпка по стъпка.</b><br>' +
+                '<b>Рецепти от близо и далеч.</b><br>' +
+                '<b>Открийте любими ястия от цял свят.</b><br>' +
+                '<b>Кулинарно пътешествие без граници.</b><br>' +
+                '<b>Автентични рецепти от различни култури.</b><br>' +
+                '<b>Най-доброто от световната кухня.</b>';
+         }
+                
+            function showAnotherText()
+            {
+               document.getElementById('id2').innerHTML=         
+                    '<b>Достъп до всички рецепти.<b>';
+            }
+        function showAgentInfo()
+        {
+            document.getElementById('id3').innerHTML =
+                '<b>Aко станеш агент ще можеш да:</b><br>' +
+                '<b>Качваш свои рецепти.</b><br>' +
+                '<b>Ако си изпуснал нещо в рецептата си да я редактираш</b><br>' +
+                '<b>Ако не ти харесва как изглежда рецептата ти да я изтриеш</b><br>' +
+                '<b>Да виждаш всички свои качени рецепти</b><br>';
+                
+        }
+    </script>
+    <style>
+
+            .center-button{
+            display:block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #FFA500;
+            color:White;
+            border: none;
+            border-radius: 10px;
+            box-shodaw 3px 3px 5px #888888;
+            transition: background-color 0.5s ease; }
+
+              .center-button:hover{
+                  background-color: #FFD700;
+              }
+
+              .center-button{
+              font-family: Arial,sens-serif;
+              font-weight: bold;
+              }
+          }
+    </style>
+</head>
+@if (true)
+{
+    
+}
+<body>
+
+    <h1 style="text-align: center">Вкусове от света</h1>
+    <img src="https://m3.netinfo.bg/media/images/39711/39711248/960-540-hrana.jpg"
+    alt="Кулинарна снимка" usemap="#image-map"
+    style="display: block; margin-left: auto; margin-right: auto; width: 80%; height: auto">
+    <map name="image-map">
+        <area shape="rect" coords="50,50,300,300"
+        href="https://recepti.gotvach.bg/r-271448-%D0%9A%D1%80%D0%B5%D1%85%D0%BA%D0%B8_%D0%B7%D0%B0%D0%B4%D1%83%D1%88%D0%B5%D0%BD%D0%B8_%D1%81%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8_%D0%BF%D1%8A%D1%80%D0%B6%D0%BE%D0%BB%D0%B8"
+        target="_blank" />
+       
+    </map>
+    <h2 style="text-align: center">Натисни върху пържолата на снимката за да видиш готова рецепта</h2>
+    <button class="center-button" type='button' onclick="showText()">Какви очаквания да имате от нашия сайт</button>
+    <h3 id="expectation" style="text-align: center"></h3>
+    <button class="center-button" type = 'button' onclick="showAnotherText()">Какво можеш да правиш в сайта ако се регистрираш</button>
+    <h4 id="id2" style="text-align: center"></h4>
+    <button class="center-button" type='button' onclick="showAgentInfo()">Ами ако станеш Агент?</button>
+    <h5 id = "id3" style = "text-align: center"></h5>
+</body>
