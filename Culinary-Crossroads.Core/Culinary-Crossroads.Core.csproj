@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Culinary-Crossroads.Infrastructure\Culinary-Crossroads.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

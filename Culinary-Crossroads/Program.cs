@@ -1,4 +1,4 @@
-using Culinary_Crossroads.Data;
+using Culinary_Crossroads.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

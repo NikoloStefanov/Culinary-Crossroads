@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Culinary_Crossroads.Data
+namespace Culinary_Crossroads.Infrastructure.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
