@@ -13,6 +13,7 @@ namespace Culinary_Crossroads.Core.Services
         public FoodService(ApplicationDbContext _data)
         {
             data = _data;
+
         }
 
         public async Task<FoodQueryServiceModel> AllAsync(string category = null, string searchTerm = null,
